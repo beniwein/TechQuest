@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root{
+
+    --bg-color: hsl(49 37% 94%);
+    --typeSpeed: 4s;
+    --typeChars: 63;
+    
+}
+
+body{
+
+    color: rgb(115, 255, 0);
+    margin: 0;
+    font-family: 'Share Tech Mono', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    /*background: var(--bg-color);*/
+    background-color: black;
+}
+
+h1{
+
+    font-size: clamp(0.5rem, 1vw + 1rem, 2rem);
+    position: relative;
+    font-family: 'Share Tech Mono', sans-serif;
+    /*
+    font-family:monospace;
+    font-family: "Source Code Pro", monospace;
+    */
+    
+    outline: 2px solid rgb(115, 255, 0);
+    width: max-content;
+
+}
+
+h1::before,
+h1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+h1::before{
+
+background-color: rgb(0, 0, 0);
+animation: 
+    typewriter 
+var(--typeSpeed) 
+steps(var(--typeChars)) 
+1s 
+forwards;
+
+}
+
+h1::after{
+
+    width: .125em;
+    background: black;
+    animation: 
+    
+    typewriter var(--typeSpeed) steps(var(--typeChars)) 1s forwards,
+
+    blink 500ms steps(var(--typeChars)) infinite;
+}
+
+
+.subtitle{
+
+    color: hsl(0 0% 0% / 0.7);
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: 
+    
+    fadeInUp 1s ease calc(var(--typeSpeed) + 2s) forwards;
+}
+
+@keyframes typewriter{
+
+    to{
+
+        left: 100%;
+    }
+}
+
+@keyframes blink{
+    to{
+
+        background: transparent;
+    }
+
+}
+
+@keyframes fadeInUp{
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+input{
+    margin: 25px;
+
+    width: fit-content;
+    min-width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 99, 3);
+    border-radius: 25px;
+}
+
+button{
+    margin: 25px;
+
+    width: fit-content;
+    min-width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 99, 3);
+    border-radius: 25px;
+}
+
+form{
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
