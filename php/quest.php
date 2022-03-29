@@ -254,6 +254,8 @@ function ShowQuestion($QuestionNumber)
         echo "<input type='submit' name='next' id='answerfield' value='Next' /> <br/>";
 
     }
+
+    
     
     echo '<br> <br>';
     echo "<input type='submit' name='reset' id='reset' value='Reset' />"; echo "<input type='submit' name='back' id='back' value='Menu' />";

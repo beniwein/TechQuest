@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<!-- <div id="hints"> </div> -->
+
 <form method='post'>
 
     <?php
