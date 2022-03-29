@@ -159,3 +159,9 @@ button{
 
 
 }
+
+/*FOOTER*/
+footer {
+    color: azure;
+    background-color: rgb(100, 187, 18);
+  }
