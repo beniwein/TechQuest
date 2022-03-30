@@ -123,9 +123,9 @@ function ShowQuestion($QuestionNumber)
         ),
 
         array(
-            'Bug',
-            'Program',
             'Algorithm',
+            'Program',
+            'Bug',
             'Code'
 
         ),

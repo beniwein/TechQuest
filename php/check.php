@@ -18,7 +18,7 @@ $AnswersResult= array(
 
     'Debugging',
 
-    'Algorithm',
+    'Bug',
 
     'Programming',
 
