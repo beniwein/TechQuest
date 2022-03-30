@@ -18,8 +18,6 @@ function ShowQuestion($QuestionNumber)
         'What does it mean to uncloud?',
         //Question 3
         'How many words does Arnie say '.'<br>'.'in the original first “Terminator” movie?',
-
-
         //Question 4
         'In which country is cellphone throwing an official sport?',
         //Question 5
@@ -50,9 +48,23 @@ function ShowQuestion($QuestionNumber)
         'Which of the following is the incorrect way to declare a PHP variable?',
         //The End
         'You have completed the quiz'
-
-
+                        
     );
+    // Beni: Einschub - Result after 'You have completed the quiz'
+    $score = $_SESSION['Correct'];
+
+    if ($QuestionNumber === 18) {
+        if ($score > 9) {
+            echo "You win - to be continue..." . "<br>";
+            echo "<img id='beBack' src = 'gif/terminator-ill-be-back.gif' alt='I will be back'>";
+        } else {
+            echo "You lose - robots wins..." . "<br>";
+            echo "<img id='robot' src = 'gif/terminator-you-lose.gif' alt='Terminator wins'>";
+        }
+    }
+
+    print_r ($score);
+    // Beni: Einschub - Ende
 
     $Answers= array(
 
