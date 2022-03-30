@@ -18,7 +18,7 @@ $AnswersResult= array(
 
     'Debugging',
 
-    'Algorithm',
+    'Bug',
 
     'Programming',
 
@@ -34,7 +34,9 @@ $AnswersResult= array(
 
     'Ada Lovelace',
 
-    '$a Variable;'
+    '$a Variable;',
+
+    'countless'
 
 
 
