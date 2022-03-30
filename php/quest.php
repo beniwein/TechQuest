@@ -121,34 +121,34 @@ function ShowQuestion($QuestionNumber)
         ),
 
         array(
-            'Algorithm',
-            'Program',
             'Bug',
+            'Program',
+            'Algorithm',
             'Code'
 
         ),
 
         array(
-            'Programming',
             'Property',
+            'Programming',
             'Program',
             'Parameter'
 
         ),
 
         array(
-            'Variable',
-            'Function',
             'Loop',
+            'Function',
+            'Variable',
             'Event'
 
         ),
 
         array(
-            'Call',
+            'Algorithm',
             'Command',
             'Code',
-            'Algorithm'
+            'Call'
 
         ),
 
@@ -161,18 +161,18 @@ function ShowQuestion($QuestionNumber)
         ),
 
         array(
-            'Algorithm',
             'Function',
+            'Algorithm',
             'Loop',
             'Iteration'
 
         ),
 
         array(
-            'Code',
+            'Sprite',
             'Program',
             'Property',
-            'Sprite'
+            'Code'
 
         ),
 
