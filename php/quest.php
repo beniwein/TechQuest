@@ -193,10 +193,10 @@ function ShowQuestion($QuestionNumber)
         ),
 
         array(
-            '26;',
-            '139;',
-            '436;',
-            'countless;'
+            '26',
+            '139',
+            '436',
+            'countless'
 
         ),
 
