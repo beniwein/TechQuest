@@ -48,6 +48,8 @@ function ShowQuestion($QuestionNumber)
         'Who was the first programmer?',
         //Question 17
         'Which of the following is the incorrect way to declare a PHP variable?',
+        //Question 18
+        'How many computer languages are in use?',
         //The End
         'You have completed the quiz'
 
@@ -190,6 +192,14 @@ function ShowQuestion($QuestionNumber)
 
         ),
 
+        array(
+            '26;',
+            '139;',
+            '436;',
+            'countless;'
+
+        ),
+
 
         array('')
 
@@ -203,6 +213,7 @@ function ShowQuestion($QuestionNumber)
         1 => 1,
         1,
         2,
+        1,
         1,
         1,
         1,
