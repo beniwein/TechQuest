@@ -12,18 +12,15 @@
         }
         return false;
     }
-?>
-
-<?php
 
 if (score()) {
 
-    echo "<a href = ''><img src = 'gif/terminanor-ill-be-back.gif'></a>";
+    echo "<a href = ''><img src = 'gif/terminator-ill-be-back.gif'></a>";
     
 
     } else {
 
-    echo "<a href = ''><img src = 'gif/terminanor-you-lose.gif'></a>";
+    echo "<a href = ''><img src = 'gif/terminator-you-lose.gif'></a>";
 
     }
 ?>
