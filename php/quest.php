@@ -46,8 +46,22 @@ function ShowQuestion($QuestionNumber)
         'Who was the first programmer?',
         //Question 17
         'Which of the following is the incorrect way to declare a PHP variable?',
-        //Question 18
+        //Question 18 (Beni: Einschub bis Question 25)
         'How many computer languages are in use?',
+        //Question 19
+        'Which of these are not Early computer?',
+        //Question 20
+        'What was the fastest growing web browser in 2020?',
+        //Question 21
+        'Which model of computer is the best selling of all time?',
+        //Question 22
+        'What year was the oldest programming language still in use invented?',
+        //Question 23
+        'What is the name of the oldest programming language still in use?',
+        //Question 24
+        'What was the first mobile phone with internet connectivity?',
+        //Question 25
+        'What was the first item sold on Ebay in 1995?',
         //The End
         'You have completed the quiz'
                         
@@ -93,7 +107,7 @@ function ShowQuestion($QuestionNumber)
         'Print a file from the cloud',
         'Delete a cloud service account'
 
-        ),
+        ), 
 
         array (
 
@@ -101,6 +115,14 @@ function ShowQuestion($QuestionNumber)
             'China',
             'Finnland',
             'Malaysia'
+        ),
+
+        array (
+
+            '',
+            '',
+            '',
+            ''
         ),
 
         array (
@@ -132,6 +154,14 @@ function ShowQuestion($QuestionNumber)
             'Bug',
             'Code'
 
+        ),
+
+        array (
+
+            '',
+            '',
+            '',
+            ''
         ),
 
         array(
@@ -166,6 +196,14 @@ function ShowQuestion($QuestionNumber)
 
         ),
 
+        array (
+
+            '',
+            '',
+            '',
+            ''
+        ),
+
         array(
             'Event',
             'ComCodingmand',
@@ -196,6 +234,14 @@ function ShowQuestion($QuestionNumber)
 
         ),
 
+        array (
+
+            '',
+            '',
+            '',
+            ''
+        ),
+
         array(
             '$aVariable;',
             '$a_Variable = 9;',
@@ -203,12 +249,68 @@ function ShowQuestion($QuestionNumber)
             '$a Variable;'
 
         ),
-
+        //Answer 18 (Beni: Einschub bis Answer 25)
         array(
             '26',
             '139',
             '436',
             'countless'
+
+        ),
+
+        array(
+            'Eriac',
+            'Univac',
+            'Sage',
+            'Nasa'
+
+        ),
+
+        array(
+            'Microsoft Edge',
+            'Firefox',
+            'DuckDuckGo',
+            'Internet Explorer'
+
+        ),
+
+        array(
+            'Apple II',
+            'IBM PC (5150)',
+            'Commodore 64',
+            'Sinclair ZX Spectrum'
+
+        ),
+
+        array(
+            '1957',
+            '1952',
+            '1960',
+            '1974'
+
+        ),
+
+        array(
+            'Matlab',
+            'FORTRAN',
+            'ADA',
+            'COBOL'
+
+        ),
+
+        array(
+            'iPhone',
+            'Nokia 9000 Communicator',
+            'Motorolla 7500',
+            'Blackberry 850'
+
+        ),
+
+        array(
+            'A rusty bucket',
+            'A computer mouse',
+            'A broken laser pointer',
+            'A Jurasic Park T-shirt'
 
         ),
 
@@ -225,6 +327,17 @@ function ShowQuestion($QuestionNumber)
         1 => 1,
         1,
         2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         1,

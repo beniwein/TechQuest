@@ -10,6 +10,9 @@ $AnswersResult= array(
 
     'Finnland',
 
+    // Beni: Platzhalter für Animation 'redirect'
+    '',
+
     'Logistics, shipping car parts (Toyota)',
 
     'waterproof so you can talk on the phone in the shower',
@@ -17,6 +20,9 @@ $AnswersResult= array(
     '2007',
 
     'Debugging',
+
+    // Beni: Platzhalter für Animation 'redirect'
+    '',
 
     'Bug',
 
@@ -26,6 +32,9 @@ $AnswersResult= array(
 
     'Call',
 
+    // Beni: Platzhalter für Animation 'redirect'
+    '',
+
     'Event',
 
     'Algorithm',
@@ -34,17 +43,26 @@ $AnswersResult= array(
 
     'Ada Lovelace',
 
+    // Beni: Platzhalter für Animation 'redirect'
+    '',
+
     '$a Variable;',
 
-    'countless'
+    'countless',
 
+    'Sage',
 
+    'Microsoft Edge',
 
+    'Commodore 64',
 
+    '1957',
 
+    'FORTRAN',
 
+    'Nokia 9000 Communicator',
 
-
+    'A broken laser pointer'
 
 
 );
