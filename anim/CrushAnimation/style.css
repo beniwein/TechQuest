@@ -1,0 +1,241 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(crush1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    /*background-color: rgba(200,100,0,.5); Base Tint color */
+}
+
+
+.crush{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(crush2.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    z-index: 14;
+    animation: crush 45s linear infinite;
+}
+
+.road{
+    height:  450px;
+    width: 500%;
+    display: block;
+    background-image: url(smoke.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:  0;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: road 45s linear infinite;
+
+}
+
+@keyframes road{
+
+    100%{
+
+        transform: translateX(-3700px);
+    }
+}
+
+
+.beam{
+    width: 800px;
+    height: 1400px;
+    left: 51%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 5;
+    opacity: 0.25;
+
+}
+
+.beam img{
+    width: 100%;
+    animation: beam 4s linear infinite;
+}
+
+
+@keyframes crush{
+
+100%{
+
+    transform: translateY(0px);
+}
+
+0%{
+
+    transform: translateY(-150px);
+}
+
+}
+
+@keyframes beam{
+
+    100%{
+
+        transform: translateX(-8px);
+    }
+    50%{
+
+        transform: translateX(1px);
+    }
+    0%{
+
+        transform: translateX(-8px);
+    }
+
+}
+
+@keyframes blitz{
+
+    100%{
+
+        transform: scale(2, 2);
+        opacity: 0.95;
+    }
+    50%{
+
+        transform: scale(1, 1);
+        opacity: 0.25;
+    }
+    0%{
+
+        transform: scale(2, 2);
+        opacity: 0.95;
+    }
+
+}
+
+@keyframes head{
+
+    
+    100%{
+
+        transform: scale(1, 1);
+    }
+    0%{
+
+        transform: scale(1, 2);
+    }
+
+}
+
+@keyframes target{
+
+    100%{
+
+        transform: translateX(-900px);
+        transform: translateX(16px);
+        opacity: 0.95;
+    }
+    75%{
+
+        transform: translateX(-850px);
+        opacity: 0.25;
+    }
+    50%{
+        transform: translateY(-110px);
+        transform: translateX(650px);
+        opacity: 0.95;
+    }
+
+    25%{
+        transform: translateY(225px);
+        transform: translateX(10px);
+        opacity: 0.10;
+    }
+
+    0%{
+        transform: translateY(-25px);
+        transform: translateX(-16px);
+        opacity: 0.95;
+    }
+
+}
+
+.blitz2{
+
+    left: 55%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 4;
+    animation: blitz 1s linear infinite
+
+} 
+
+
+.blitz2 img{
+    width: 300px;
+    height: 950px;
+    transform: scaleX(-1);
+    z-index: 3;
+}
+
+
+.blitz{
+
+    left: 50%;
+    bottom: -150px;
+    transform: translateX(-50%);
+    position: absolute;
+    
+    animation: blitz 2s linear infinite
+} 
+
+
+.head{
+
+    left: 50%;
+    top: 165px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 3;
+    animation: head 15s linear infinite
+    
+} 
+
+.head img{
+    transform: rotate(-90deg);
+    width: 400px;
+    height: 650px;
+}
+
+.blitz img{
+    width: 600px;
+    height: 350px;
+    
+}
+
+.light{
+
+    left: 33%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 4;
+    
+    animation: light 2s linear infinite;
+} 
+
+
+.light img{
+    width: 500px;
+    height: 500px;
+}
