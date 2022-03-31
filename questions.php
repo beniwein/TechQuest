@@ -17,6 +17,7 @@
     
         include('php/quest.php');
         include('php/check.php');
+        
         ShowQuestion($_SESSION['Question']);
         echo '<br>';
         print_r("Frage Nummer: " . "<p id='questNum'>" . $_SESSION['Question'] . "</p>");
