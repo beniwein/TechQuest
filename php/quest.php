@@ -318,7 +318,7 @@ function ShowQuestion($QuestionNumber)
             'A rusty bucket',
             'A computer mouse',
             'A broken laser pointer',
-            'A Jurasic Park T-shirt'
+            'A Jurassic Park T-shirt'
 
         ),
 

@@ -33,83 +33,155 @@ function FiftyFitfyJoker()
 
     AnswersToRemove[5] = new Array (
 
+        ''
+        
+    )
+
+    AnswersToRemove[6] = new Array (
+
         'Substitute for postal addresses (Japan Post)',
         'Encryption of prescriptions in pharmacies'
     )
 
-    AnswersToRemove[6] = new Array (
+    AnswersToRemove[7] = new Array (
         'Barrier-free, with Braille on the keys, for the blind',
         'configured as a remote control for TV and garage to save space',
 
     )
 
-    AnswersToRemove[7] = new Array (
+    AnswersToRemove[8] = new Array (
         '1995',
         '2000'
        
 
     )
 
-    AnswersToRemove[8] = new Array (
+    AnswersToRemove[9] = new Array (
         
         'Bug',
         'Code'
 
     )
 
-    AnswersToRemove[9] = new Array (
+    AnswersToRemove[10] = new Array (
+
+        ''
+        
+    )
+
+    AnswersToRemove[11] = new Array (
         
         'Program',
         'Code'
 
     )
 
-    AnswersToRemove[10] = new Array (
+    AnswersToRemove[12] = new Array (
         'Property',
         'Program'
 
     )
 
-    AnswersToRemove[11] = new Array (
+    AnswersToRemove[13] = new Array (
         'Function',
         'Loop'
 
     )
 
-    AnswersToRemove[12] = new Array (
+    AnswersToRemove[14] = new Array (
         'Command',
         'Code'
 
     )
 
-    AnswersToRemove[13] = new Array (
+    AnswersToRemove[15] = new Array (
+
+        ''
+        
+    )
+
+    AnswersToRemove[16] = new Array (
         
         'Variable',
         'Programming'
 
     )
 
-    AnswersToRemove[14] = new Array (
+    AnswersToRemove[17] = new Array (
         'Function',
         'Loop'
 
     )
 
-    AnswersToRemove[15] = new Array (
+    AnswersToRemove[18] = new Array (
         'Program',
         'Sprite'
 
     )
 
-    AnswersToRemove[16] = new Array (
+    AnswersToRemove[19] = new Array (
         'Bill Gates'
 
     )
 
-    AnswersToRemove[17] = new Array (
+    AnswersToRemove[20] = new Array (
+
+        ''
+        
+    )
+
+    AnswersToRemove[21] = new Array (
         
         '$a_Variable = 9;',
         '$AVariable;'
+
+    )
+
+    AnswersToRemove[22] = new Array (
+        '26',
+        '139'
+
+    )
+
+    AnswersToRemove[23] = new Array (
+        'Eriac',
+        'Nasa'
+
+    )
+
+    AnswersToRemove[24] = new Array (
+        'Firefox',
+        'DuckDuckGo'
+
+    )
+
+    AnswersToRemove[25] = new Array (
+        'Apple II',
+        'IBM PC (5150)'
+
+    )
+
+    AnswersToRemove[26] = new Array (
+        '1960',
+        '1974'
+
+    )
+
+    AnswersToRemove[27] = new Array (
+        'Matlab',
+        'ADA'
+
+    )
+
+    AnswersToRemove[28] = new Array (
+        'Motorolla 7500',
+        'Blackberry 850'
+
+    )
+
+    AnswersToRemove[29] = new Array (
+        'A rusty bucket',
+        'A Jurassic Park T-shirt'
 
     )
 
