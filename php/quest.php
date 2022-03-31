@@ -55,8 +55,8 @@ function ShowQuestion($QuestionNumber)
     // Beni: Einschub - Result after 'You have completed the quiz'
     $score = $_SESSION['Correct'];
 
-    if ($QuestionNumber === 19) {
-        if ($score > 9) {
+    if ($QuestionNumber === 30) {
+        if ($score > 13) {
             echo "You win - to be continue..." . "<br>";
             echo "<img id='beBack' src = 'gif/terminator-ill-be-back.gif' alt='I will be back'>";
         } else {
