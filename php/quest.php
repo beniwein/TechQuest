@@ -20,47 +20,55 @@ function ShowQuestion($QuestionNumber)
         'How many words does Arnie say '.'<br>'.'in the original first “Terminator” movie?',
         //Question 4
         'In which country is cellphone throwing an official sport?',
-        //Question 5
-        'The QR code was invented in Japan. What were QR codes first used for?',
+        //Question 5 / Placeholder: Beni (inkl. 10/15/20)
+        '',
         //Question 6
-        'Most cell phones in Japan are also..., - why?',
+        'The QR code was invented in Japan. What were QR codes first used for?',
         //Question 7
-        'What year was the iPhone released?',
+        'Most cell phones in Japan are also..., - why?',
         //Question 8
-        'What is finding and fixing errors in programs?',
+        'What year was the iPhone released?',
         //Question 9
-        'What is an error in a program that prevents the program from running as expected?',
+        'What is finding and fixing errors in programs?',
         //Question 10
-        'A label for a characteristic of a sprite, such as its location and appearance',
+        '',
         //Question 11
-        'A piece of code that you can call over and over again.',
+        'What is an error in a program that prevents the program from running as expected?',
         //Question 12
-        'An instruction for the computer',
+        'A label for a characteristic of a sprite, such as its location and appearance',
         //Question 13
-        'An action that causes something to happen.',
+        'A piece of code that you can call over and over again.',
         //Question 14
-        'The action of doing something over and over again.',
+        'An instruction for the computer',
         //Question 15
-        'An algorithm that has been coded into something that can be run by a machine.',
+        '',
         //Question 16
-        'Who was the first programmer?',
+        'An action that causes something to happen.',
         //Question 17
-        'Which of the following is the incorrect way to declare a PHP variable?',
-        //Question 18 (Beni: Einschub bis Question 25)
-        'How many computer languages are in use?',
+        'The action of doing something over and over again.',
+        //Question 18 (Beni: Einschub bis Question 29)
+        'An algorithm that has been coded into something that can be run by a machine.',
         //Question 19
-        'Which of these are not Early computer?',
+        'Who was the first programmer?',
         //Question 20
-        'What was the fastest growing web browser in 2020?',
+        '',
         //Question 21
-        'Which model of computer is the best selling of all time?',
-        //Question 22
-        'What year was the oldest programming language still in use invented?',
+        'Which of the following is the incorrect way to declare a PHP variable?',
+        //Question 22 
+        'How many computer languages are in use?',
         //Question 23
-        'What is the name of the oldest programming language still in use?',
+        'Which of these are not Early computer?',
         //Question 24
-        'What was the first mobile phone with internet connectivity?',
+        'What was the fastest growing web browser in 2020?',
         //Question 25
+        'Which model of computer is the best selling of all time?',
+        //Question 26
+        'What year was the oldest programming language still in use invented?',
+        //Question 27
+        'What is the name of the oldest programming language still in use?',
+        //Question 28
+        'What was the first mobile phone with internet connectivity?',
+        //Question 29
         'What was the first item sold on Ebay in 1995?',
         //The End
         'You have completed the quiz'
