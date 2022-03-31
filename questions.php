@@ -11,8 +11,7 @@
 <body>
 
 <!-- <div id="hints"> </div> -->
-
-<div id="hint"></div>
+<img id="sprech" src="img/sprech.png" ><div id="hint"></div>
 <form method='post'>
 
     <?php

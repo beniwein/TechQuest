@@ -115,8 +115,17 @@ form {
 
 #terminatorimg {
   position: absolute;
-  top: 50%;
-  right: 20%;
+  top: 55%;
+  right: 5%;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 540px) {
+  #terminatorimg {
+    right: -35%;
+  }
+ 
+ 
 }
 
 #jokerbutton {
@@ -135,6 +144,27 @@ form {
   position: absolute;
   top: 45%;
   right: 26%;
+  z-index: 5;
 
 }
 
+#sprech{
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  height: 200px;
+  width: 300px;
+  z-index: 5;
+  opacity: 50%;
+
+}
+@media screen and (max-width: 540px) {
+  
+  #hint {
+    right: 0%;
+  }
+  #sprech {
+    right: -30%;
+  }
+ 
+}
