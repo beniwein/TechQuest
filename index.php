@@ -15,14 +15,14 @@
         <div class="road"></div>
         <div class="city"></div>
         <div class="car">
-            <img src="img/bikenowheels.png">
+            <img src="anim/BikeAnimation/bikenowheels.png">
         </div>
         <div class="wheel">
-            <img src="img/wheel.png" class="back-wheel">
-            <img src="img/wheel.png" class="front-wheel">
+            <img src="anim/BikeAnimation/wheel.png" class="back-wheel">
+            <img src="anim/BikeAnimation/wheel.png" class="front-wheel">
         </div>
         <div class="driver">
-            <img src="img/sitting.png" class="back-wheel">
+            <img src="anim/BikeAnimation/sitting.png" class="back-wheel">
         </div>
         <form action='questions.php' method='post'>
             <?php

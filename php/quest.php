@@ -7,7 +7,7 @@ session_start();
 function ShowQuestion($QuestionNumber)
 {
     
-    
+    $_ShowingAnimations = false;
     
     $AllQuestions = array(
 
@@ -246,6 +246,7 @@ function ShowQuestion($QuestionNumber)
     );
 
   
+  
     $currentQuestion = $AllQuestions[$QuestionNumber];
     $currentAnswers = $Answers[$QuestionNumber];
     $numberAnswers = count($Answers[$QuestionNumber]);
@@ -278,6 +279,16 @@ function ShowQuestion($QuestionNumber)
 
     }
 
+    if(($QuestionNumber == 5 || $QuestionNumber == 10) && $_ShowingAnimations== false)
+    {
+
+        
+        $_ShowingAnimations = true;
+        $_SESSION['Question']++;
+        animDirect('/anim/BornAnimation/born.html');
+
+    }
+
     
     
     echo '<br> <br>';
@@ -293,10 +304,38 @@ function ShowQuestion($QuestionNumber)
     
     $NumCorrect = $_SESSION['Correct'];
     $NumWrong= $_SESSION['Wrong'];
-    if(($NumCorrect - $NumWrong) < -3 )
+    $Difference = $NumCorrect - $NumWrong;
+    if($Difference  <= -3 )
     {
 
         echo "<button id='jokerbutton' onClick='FiftyFitfyJoker()' ></button>";
+
+    }
+
+    if( $Difference  >= 3  )
+    {
+        echo '<img id="terminatorimg" src="img/termin4.png" alt="">';
+
+
+    }
+
+    else  if($Difference  <= -3 && $Difference  >=-6)
+    {
+        echo '<img id="terminatorimg" src="img/termin2.png" alt="">';
+
+
+    }
+
+    else  if($Difference  < -6)
+    {
+        echo '<img id="terminatorimg" src="img/termin3.png" alt="">';
+
+
+    }
+    else if($Difference  < 3 && $Difference > -3)
+    {
+        echo '<img id="terminatorimg" src="img/termin1.png" alt="">';
+
 
     }
 
@@ -311,6 +350,12 @@ function redirect($url) {
     die();
 }
 
+function animDirect($url) {
+    ob_start();
+    header('Location: '.$url);
+    ob_end_flush();
+    die();
+}
 
 
 ?>

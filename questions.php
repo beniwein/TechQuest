@@ -30,7 +30,7 @@
 
 
 
-<img id="terminatorimg" src="img/termin1.png" alt="">
+
 
 <script src="js/hints.js"></script>
 <script src="js/joker.js"></script>
