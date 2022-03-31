@@ -86,7 +86,7 @@ function ShowQuestion($QuestionNumber)
         }
     }
 
-    print_r ($score);
+    print_r ('Score: ' . $score);
     // Beni: Einschub - Ende
 
     //Array of all answer options

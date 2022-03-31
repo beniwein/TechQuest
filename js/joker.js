@@ -187,6 +187,8 @@ function FiftyFitfyJoker()
 
     )
 
+    
+
     /*
 
     
@@ -205,11 +207,15 @@ function FiftyFitfyJoker()
 
     //document.write(QuestionNumber + currentJokerQuestion);
 
+    if(QuestionNumber != 30)
+    {
+
     for (let index = 0; index < currentJokerQuestion.length; index++) {
 
         let element = document.getElementById(currentJokerQuestion[index]);
 
         element.parentNode.removeChild(element);
+    }
         
     }
 

@@ -35,12 +35,16 @@ function ShowHints()
     HintToShow[27] = 'believe yourself';
     HintToShow[28] = 'the indestructible phone';
     HintToShow[29] = 'broken things are not good';
+    HintToShow[30] = 'Skynet has been destroyed!';
 
 
     let currentHint = HintToShow[QuestionNumber];
+
+    
     //document.write(QuestionNumber);
     //document.write(currentHint);
     document.getElementById('hint').innerHTML = currentHint;
+    
     
 
 
