@@ -10,7 +10,7 @@
     {
 
         echo "<button id='jokerbutton' onClick='FiftyFitfyJoker()' ></button>";
-        $_SESSION['Joker']++;
+        $_SESSION['jokers']++;
 
     }
 

@@ -456,7 +456,8 @@ function ShowQuestion($QuestionNumber)
     echo '<br> <br>';
     print_r('Falsche Antworten: ' .  $_SESSION['Wrong']) . '<br>';
     echo '<br> <br>';
-    
+    print_r('Anzahl Jokers gezeigt: ' .  $_SESSION['jokers']) . '<br>';
+    echo '<br> <br>';
     //Calculate difference between correct and wrong questions
     $NumCorrect = $_SESSION['Correct'];
     $NumWrong= $_SESSION['Wrong'];
