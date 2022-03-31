@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(bar.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    /*background-color: rgba(200,100,0,.5); Base Tint color */
+    background-color: rgba(146, 15, 15, 0.5);
+    background-blend-mode: multiply;
+}
+
+
+.scan{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(scan.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.road{
+    height:  450px;
+    width: 500%;
+    display: block;
+    background-image: url(smoke.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:  0;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: road 45s linear infinite;
+
+}
+
+@keyframes road{
+
+    100%{
+
+        transform: translateX(-3700px);
+    }
+}
+
+
+.beam{
+    width: 800px;
+    height: 1400px;
+    left: 51%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 5;
+    opacity: 0.25;
+
+}
+
+.beam img{
+    width: 100%;
+    animation: beam 4s linear infinite;
+}
+
+@keyframes beam{
+
+    100%{
+
+        transform: translateX(-8px);
+    }
+    50%{
+
+        transform: translateX(1px);
+    }
+    0%{
+
+        transform: translateX(-8px);
+    }
+
+}
+
+@keyframes light{
+
+    100%{
+
+        transform: scale(2, 2);
+        opacity: 0.95;
+    }
+    50%{
+
+        transform: scale(1, 1);
+        opacity: 0.25;
+    }
+    0%{
+
+        transform: scale(2, 2);
+        opacity: 0.95;
+    }
+
+}
+
+@keyframes target{
+
+    100%{
+
+        transform: translateX(-900px);
+        transform: translateX(16px);
+        opacity: 0.95;
+    }
+    75%{
+
+        transform: translateX(-850px);
+        opacity: 0.25;
+    }
+    50%{
+        transform: translateY(-110px);
+        transform: translateX(650px);
+        opacity: 0.95;
+    }
+
+    25%{
+        transform: translateY(225px);
+        transform: translateX(10px);
+        opacity: 0.10;
+    }
+
+    0%{
+        transform: translateY(-25px);
+        transform: translateX(-16px);
+        opacity: 0.95;
+    }
+
+}
+
+
+
+.target{
+
+    left: 37%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 4;
+    animation: target 4s linear infinite;
+} 
+
+
+.target img{
+    width: 600px;
+    height: 350px;
+    
+}
+
+.light{
+
+    left: 33%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 4;
+    
+    animation: light 2s linear infinite;
+} 
+
+
+.light img{
+    width: 500px;
+    height: 500px;
+}

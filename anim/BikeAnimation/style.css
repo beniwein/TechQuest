@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(citysky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.road{
+    height:  750px;
+    width: 500%;
+    display: block;
+    background-image: url(roadseamless.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:  0;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: road 5s linear infinite;
+
+}
+
+@keyframes road{
+
+    100%{
+
+        transform: translateX(-3700px);
+    }
+}
+
+.city{
+    height: 350px;
+    width: 800%;
+    background-image: url(city.png);
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite ;
+
+}
+
+@keyframes city{
+    100%{
+
+        transform: translateX(-1400px);
+    }
+
+
+}
+
+.car{
+    width: 400px;
+    left: 50%;
+    bottom: 56px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 4;
+
+}
+
+.car img{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+
+@keyframes car{
+
+    100%{
+
+        transform: translateY(-2px);
+    }
+    50%{
+
+        transform: translateY(1px);
+    }
+    0%{
+
+        transform: translateY(-2px);
+    }
+
+}
+
+.wheel{
+
+    left: 50%;
+    bottom: 188px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 3;
+}
+
+.wheel img{
+    width: 110px;
+    height: 110px;
+    animation: wheel 1s linear infinite;
+}
+
+.back-wheel{
+    left: -182px;
+    position: absolute;
+}
+
+.front-wheel{
+    left: 65px;
+    position: absolute;
+}
+
+@keyframes wheel
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.driver{
+
+    left: 60%;
+    bottom: 264px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 4;
+    transform: rotate(33deg);
+}
+
+
+.driver img{
+    width: 190px;
+    height: 220px;
+}
