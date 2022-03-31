@@ -61,6 +61,7 @@ if(array_key_exists('answer', $_POST)) {
 
     else
     {
+        $_SESSION['Question']++;
         $_SESSION['Wrong']++;
 
     }
