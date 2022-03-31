@@ -134,7 +134,7 @@
 .eye{
 
     left: 35%;
-    bottom: 625px;
+    bottom: 550px;
     transform: translateX(-50%);
     position: absolute;
     z-index: 4;
@@ -152,6 +152,7 @@
 
 
 
+  
 .light{
 
     left: 35%;
@@ -185,3 +186,12 @@ button{
 
 
 }
+@media screen and (max-width: 540px) {
+    .eye {
+      bottom: 350px;
+    }
+    .light {
+        bottom: 150px;
+      }
+   
+  }
