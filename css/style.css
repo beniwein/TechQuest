@@ -142,9 +142,11 @@ form {
 
 #hint{
   position: absolute;
-  top: 45%;
-  right: 26%;
+  top: 48%;
+  right: 22%;
   z-index: 5;
+  font-size: 20px;
+  text-align: justify;
 
 }
 
@@ -152,8 +154,8 @@ form {
   position: absolute;
   top: 35%;
   right: 20%;
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 370px;
   z-index: 5;
   opacity: 50%;
 
@@ -161,10 +163,13 @@ form {
 @media screen and (max-width: 540px) {
   
   #hint {
-    right: 5%;
+    right: -5%;
+    font-size: 15px;
   }
   #sprech {
     right: -30%;
+    height: 250px;
+  width: 250px;
   }
   #jokerbutton
   {
