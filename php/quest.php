@@ -12,19 +12,19 @@ function ShowQuestion($QuestionNumber)
 
        
         //Question 1
-        1 => 'What technology is used to record cryptocurrency transactions?',
+        1 => 'What technology is used to record '.'<br>'.'cryptocurrency transactions?',
         //Question 2
         'What does it mean to uncloud?',
         //Question 3
         'How many words does Arnie say '.'<br>'.'in the original first “Terminator” movie?',
         //Question 4
-        'In which country is cellphone throwing an official sport?',
+        'In which country is cellphone throwing '.'<br>'.'an official sport?',
         //Question 5 / Placeholder: Beni (inkl. 10/15/20)
         '',
         //Question 6
-        'The QR code was invented in Japan. What were QR codes first used for?',
+        'The QR code was invented in Japan. What were '.'<br>'.'QR codes first used for?',
         //Question 7
-        'Most cell phones in Japan are also..., - why?',
+        'Most cell phones in Japan are also..., '.'<br>'.'- why?',
         //Question 8
         'What year was the iPhone released?',
         //Question 9
@@ -32,11 +32,11 @@ function ShowQuestion($QuestionNumber)
         //Question 10
         '',
         //Question 11
-        'What is an error in a program that prevents the program from running as expected?',
+        'What is an error in a program that prevents '.'<br>'.'the program from running as expected?',
         //Question 12
-        'A label for a characteristic of a sprite, such as its location and appearance',
+        'A label for a characteristic of a sprite, '.'<br>'.'such as its location and appearance',
         //Question 13
-        'A piece of code that you can call over and over again.',
+        'A piece of code that you can call over '.'<br>'.'and over again.',
         //Question 14
         'An instruction for the computer',
         //Question 15
@@ -44,31 +44,31 @@ function ShowQuestion($QuestionNumber)
         //Question 16
         'An action that causes something to happen.',
         //Question 17
-        'The action of doing something over and over again.',
+        'The action of doing something over and '.'<br>'.'over again.',
         //Question 18 (Beni: Einschub bis Question 29)
-        'An algorithm that has been coded into something that can be run by a machine.',
+        'An algorithm that has been coded into '.'<br>'.'something that can be run by a machine.',
         //Question 19
         'Who was the first programmer?',
         //Question 20
         '',
         //Question 21
-        'Which of the following is the incorrect way to declare a PHP variable?',
+        'Which of the following is the incorrect '.'<br>'.'way to declare a PHP variable?',
         //Question 22 
         'How many computer languages are in use?',
         //Question 23
         'Which of these are not Early computer?',
         //Question 24
-        'What was the fastest growing web browser in 2020?',
+        'What was the fastest growing '.'<br>'.'web browser in 2020?',
         //Question 25
-        'Which model of computer is the best selling of all time?',
+        'Which model of computer is the best '.'<br>'.'selling of all time?',
         //Question 26
-        'What year was the oldest programming language still in use invented?',
+        'What year was the oldest programming '.'<br>'.'language still in use invented?',
         //Question 27
-        'What is the name of the oldest programming language still in use?',
+        'What is the name of the oldest '.'<br>'.'programming language still in use?',
         //Question 28
-        'What was the first mobile phone with internet connectivity?',
+        'What was the first mobile phone with '.'<br>'.'internet connectivity?',
         //Question 29
-        'What was the first item sold on Ebay in 1995?',
+        'What was the first item sold on Ebay '.'<br>'.'in 1995?',
         //The End
         'You have completed the quiz'
                         
