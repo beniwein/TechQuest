@@ -29,6 +29,7 @@
             $_SESSION['Question'] = 1;
             $_SESSION['Wrong'] = 0;
             $_SESSION['Correct'] = 0;
+            $_SESSION['Hints'] = 0;
             ?>
             <button type='submit'>Start</button>
         </form>

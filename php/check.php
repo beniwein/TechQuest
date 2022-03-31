@@ -1,5 +1,6 @@
 <?php
 
+//Array of all correct answers
 $AnswersResult= array(
 
     1 => 'Blockchain',
@@ -68,6 +69,7 @@ $AnswersResult= array(
 );
 
 
+//Check for multiple choice input field 'answer'
 
 if(array_key_exists('answer', $_POST)) {
     
@@ -87,11 +89,12 @@ if(array_key_exists('answer', $_POST)) {
     
 }
 
+//Check for number field 'answer'
 if(isset($_POST['next'])){
     if(!empty($_POST['answernumber'])) {
         
         $numberVal = $_POST["answernumber"];
-        //echo $numberVal . $AnswersResult[$_SESSION['Question']];
+        //Correct answer = 53 +- 5
         if($numberVal > 48 &&  $numberVal < 58)
         {
             $_SESSION['Question']++;
@@ -109,7 +112,7 @@ if(isset($_POST['next'])){
 }
 
 
-
+//Reset button
 if(array_key_exists('reset', $_POST)) {
 
     
@@ -121,6 +124,7 @@ if(array_key_exists('reset', $_POST)) {
 }
 
 
+//Back to menu button with redirect function from quest.php
 if(array_key_exists('back', $_POST)) {
 
     

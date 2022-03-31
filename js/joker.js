@@ -3,8 +3,10 @@
 function FiftyFitfyJoker()
 {
 
+    //Get current question number by id field check
     let QuestionNumber = document.getElementById('questNum').innerHTML;
 
+    //Array of answers to remove
     var AnswersToRemove = new Array ( );
 
     AnswersToRemove[1] = new Array (

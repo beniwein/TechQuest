@@ -2,13 +2,12 @@
 session_start();
 
 
-
+//Main Function for displaying question with the answers and inputfields
 
 function ShowQuestion($QuestionNumber)
 {
     
-    $_ShowingAnimations = false;
-    
+    //Array of all Questions as Strings
     $AllQuestions = array(
 
        
@@ -90,6 +89,7 @@ function ShowQuestion($QuestionNumber)
     print_r ($score);
     // Beni: Einschub - Ende
 
+    //Array of all answer options
     $Answers= array(
 
         1 => array (
@@ -328,7 +328,7 @@ function ShowQuestion($QuestionNumber)
 
     );
 
-   
+   //Array of all Answer Input Types for each Question (1 = multiple choice question buttons, 2 = numberfield, 0 = no continue button)
 
     $AnswerInput=array(
 
@@ -367,15 +367,19 @@ function ShowQuestion($QuestionNumber)
     );
 
   
-  
+    //Set all current Values for the current Question Number
+
     $currentQuestion = $AllQuestions[$QuestionNumber];
     $currentAnswers = $Answers[$QuestionNumber];
     $numberAnswers = count($Answers[$QuestionNumber]);
-    
-    //$currentResults= $AnswersResult[$QuestionNumber];
     $currentAnswerInput =  $AnswerInput[$QuestionNumber];
 
-    print_r("<h1>".$AllQuestions[$QuestionNumber]."</h1>");
+
+    //Print the question to questions.php
+
+    print_r("<h1>".$currentQuestion."</h1>");
+
+    //Print the inputfield (multiple choice if 1, number field if 2)
 
     if($currentAnswerInput == 1)
     {
@@ -392,13 +396,23 @@ function ShowQuestion($QuestionNumber)
         //echo '<br> <br>';
         //print_r('Anzahl Antworten: ' . $numberAnswers) . '<br>';
     }
-    else
+    else if($currentAnswerInput == 2)
     {
 
         echo "<input type='number' name='answernumber' id='answerfield'/> <br/>";
         echo "<input type='submit' name='next' id='answerfield' value='Next' /> <br/>";
 
     }
+
+    if(!$currentAnswerInput == 0)
+    {
+
+        echo "<input type='number' name='answernumber' id='answerfield'/> <br/>";
+        echo "<input type='submit' name='next' id='answerfield' value='Next' /> <br/>";
+
+    }
+
+    //Set Animation scenes if question number = 5, 10, 15 or 20
 
     if(($QuestionNumber == 5))
     {
@@ -437,27 +451,34 @@ function ShowQuestion($QuestionNumber)
     }
 
     
-    
+    //Create Reset and Back to Menu Button
+
     echo '<br> <br>';
     echo "<input type='submit' name='reset' id='reset' value='Reset' />"; echo "<input type='submit' name='back' id='back' value='Menu' />";
     echo '<br> <br>';
 
-   
+    //Print correct and wrong question
     echo '<br> <br>';
     print_r('Richtige Antworten: ' .  $_SESSION['Correct']) . '<br>';
     echo '<br> <br>';
     print_r('Falsche Antworten: ' .  $_SESSION['Wrong']) . '<br>';
     echo '<br> <br>';
     
+    //Calculate difference between correct and wrong questions
     $NumCorrect = $_SESSION['Correct'];
     $NumWrong= $_SESSION['Wrong'];
     $Difference = $NumCorrect - $NumWrong;
+
+    //Check difference for adding Joker Button ( if difference < -3)
     if($Difference  <= -3 )
     {
 
         echo "<button id='jokerbutton' onClick='FiftyFitfyJoker()' ></button>";
+        $_SESSION['Joker']++;
 
     }
+
+    //Check difference for changing terminator mascot
 
     if( $Difference  >= 3  )
     {
@@ -488,6 +509,8 @@ function ShowQuestion($QuestionNumber)
 
    
 }
+
+//Quick function for redirection to index with back to menu button
 
 function redirect($url) {
     $_SESSION['Question'] = 1;

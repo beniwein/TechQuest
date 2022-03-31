@@ -128,20 +128,30 @@
 
 .driver{
 
-    left: 60%;
-    bottom: 264px;
+    left: 58%;
+    bottom: 320px;
     /*transform: translateX(-50%);*/
     right: 50%;
     position: absolute;
     z-index: 4;
-    transform: rotate(33deg);
 }
 
 
 .driver img{
     width: 190px;
     height: 220px;
+    
+    transform: rotate(33deg);
 }
+
+@media screen and (max-width: 540px) {
+    .driver {
+      transform: translateX(80px);
+      bottom: 318px;
+    }
+   
+   
+  }
 
 button{
     position: absolute;
