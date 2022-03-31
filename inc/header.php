@@ -1,7 +1,7 @@
 <header>
     <div class="layer"></div>
     <div class="container banner-size">
-        <img class="header-logo" src="/imgc/logo.png" width="400" height= "250" title= "Logo Co."/>
+        <img class="header-logo" src="/img/logo.png" width="400" height= "250" title= "Logo Co."/>
         <nav class="nav">
             <?php
                 $menuItems = array(

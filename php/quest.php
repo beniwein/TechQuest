@@ -400,13 +400,39 @@ function ShowQuestion($QuestionNumber)
 
     }
 
-    if(($QuestionNumber == 5 || $QuestionNumber == 10) && $_ShowingAnimations== false)
+    if(($QuestionNumber == 5))
     {
 
         
-        $_ShowingAnimations = true;
         $_SESSION['Question']++;
         animDirect('/anim/BornAnimation/born.html');
+
+    }
+
+    else if($QuestionNumber == 10)
+    {
+
+        
+        $_SESSION['Question']++;
+        animDirect('/anim/ScanAnimation/scan.html');
+
+    }
+
+    else if($QuestionNumber == 15)
+    {
+
+        
+        $_SESSION['Question']++;
+        animDirect('/anim/RobotAnimation/robot.html');
+
+    }
+
+    else if($QuestionNumber == 20)
+    {
+
+        
+        $_SESSION['Question']++;
+        animDirect('/anim/CrushAnimation/crush.html');
 
     }
 

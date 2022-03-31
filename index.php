@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <?php include 'inc/header.php' ?>
     <div class="hero">
         <div class="road"></div>
         <div class="city"></div>
