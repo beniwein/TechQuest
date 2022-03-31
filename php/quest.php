@@ -290,6 +290,15 @@ function ShowQuestion($QuestionNumber)
     echo '<br> <br>';
     print_r('Falsche Antworten: ' .  $_SESSION['Wrong']) . '<br>';
     echo '<br> <br>';
+    
+    $NumCorrect = $_SESSION['Correct'];
+    $NumWrong= $_SESSION['Wrong'];
+    if(($NumCorrect - $NumWrong) < -3 )
+    {
+
+        echo "<button id='jokerbutton' onClick='FiftyFitfyJoker()' ></button>";
+
+    }
 
    
 }

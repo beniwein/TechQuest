@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
 <body>
 
 <!-- <div id="hints"> </div> -->
 
+<div id="hint"></div>
 <form method='post'>
 
     <?php
@@ -27,10 +29,12 @@
 
 
 
-<button id="jokerbutton" onClick='FiftyFitfyJoker()' ></button>
 
 <img id="terminatorimg" src="img/termin1.png" alt="">
 
+<script src="js/hints.js"></script>
 <script src="js/joker.js"></script>
+<script>ShowHints();</script>
+
 </body>
 </html>

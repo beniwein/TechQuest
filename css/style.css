@@ -131,4 +131,10 @@ form {
   z-index: 5;
 }
 
+#hint{
+  position: absolute;
+  top: 45%;
+  right: 26%;
+
+}
 

@@ -1,13 +1,5 @@
 
 
-function SeeQuestion()
-{
-    let QuestionNumber = document.getElementById('questNum').innerHTML;
-
-    document.write(QuestionNumber);
-}
-
-
 function FiftyFitfyJoker()
 {
 
