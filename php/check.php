@@ -92,7 +92,7 @@ if(isset($_POST['next'])){
         
         $numberVal = $_POST["answernumber"];
         //echo $numberVal . $AnswersResult[$_SESSION['Question']];
-        if($numberVal == $AnswersResult[$_SESSION['Question']])
+        if($numberVal > 48 &&  $numberVal < 58)
         {
             $_SESSION['Question']++;
             $_SESSION['Correct']++;
@@ -100,6 +100,7 @@ if(isset($_POST['next'])){
 
         else
         {
+            $_SESSION['Question']++;
             $_SESSION['Wrong']++;
 
         }
