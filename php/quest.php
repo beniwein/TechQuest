@@ -78,10 +78,10 @@ function ShowQuestion($QuestionNumber)
 
     if ($QuestionNumber === 30) {
         if ($score > 13) {
-            echo "You win - to be continue..." . "<br>";
+            echo "<h1>You win - to be continue...</h1>" . "<br>";
             echo "<img id='beBack' src = 'gif/terminator-ill-be-back.gif' alt='I will be back'>";
         } else {
-            echo "You lose - robots wins..." . "<br>";
+            echo "<h1>You lose - robots wins...</h1>" . "<br>";
             echo "<img id='robot' src = 'gif/terminator-you-lose.gif' alt='Terminator wins'>";
         }
     }
@@ -404,13 +404,6 @@ function ShowQuestion($QuestionNumber)
 
     }
 
-    if(!$currentAnswerInput == 0)
-    {
-
-        echo "<input type='number' name='answernumber' id='answerfield'/> <br/>";
-        echo "<input type='submit' name='next' id='answerfield' value='Next' /> <br/>";
-
-    }
 
     //Set Animation scenes if question number = 5, 10, 15 or 20
 
@@ -469,14 +462,7 @@ function ShowQuestion($QuestionNumber)
     $NumWrong= $_SESSION['Wrong'];
     $Difference = $NumCorrect - $NumWrong;
 
-    //Check difference for adding Joker Button ( if difference < -3)
-    if($Difference  <= -3 )
-    {
-
-        echo "<button id='jokerbutton' onClick='FiftyFitfyJoker()' ></button>";
-        $_SESSION['Joker']++;
-
-    }
+  
 
     //Check difference for changing terminator mascot
 

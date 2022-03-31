@@ -26,8 +26,9 @@
     
 </form>
 
-
-
+<?php
+include('php/joker.php');
+?>
 
 
 
