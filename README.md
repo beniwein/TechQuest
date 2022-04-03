@@ -1,5 +1,6 @@
 # TechQuest - Quiz-Website
-10-  25 Fragen rund um das Thema Technik
+Ausgangslage: 25 Fragen rund um das Thema Technik
+Theme: Terminator
 
 - beinhaltet PHP & JavaScript, daraus resultierend: Landing Page, Quiz-Pages, Result Page
 
@@ -11,6 +12,12 @@
 
 - Projektdokumentation (Trello): https://trello.com/b/yVFplhJd/techquest
 
+Projektmitglieder:
+Francis: Leadcoder
+Beni: Assistent-Coder
+Ajoub: Support
+Saleh: Support
+
 Verfasser:
-OBSTACLES.md    Francis
-GitHubUSAGE.md  Beni
+OBSTACLES.md - Francis
+GitHubUSAGE.md - Beni
