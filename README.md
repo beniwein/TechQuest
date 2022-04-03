@@ -1,7 +1,7 @@
 # TechQuest - Quiz-Website
 Ausgangslage: 25 Fragen rund um das Thema Technik / Theme: Terminator
 
-beinhaltet PHP & JavaScript, daraus resultierend: Landing Page, Quiz-Pages, Result Page
+beinhaltet PHP, JavaScript & Animationen, daraus resultierend: Landing Page, Quiz-Pages, Zwischensequenzen, Result Page
 
 - grobes Grundkonzept (Whiteboard): https://drive.google.com/file/d/1matxq7LOJrj9cvAUyQlOYEWb8_KhMYXP/view?usp=sharing
 
