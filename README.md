@@ -20,5 +20,5 @@ Projektmitglieder:
 
 Verfasser:
 -------------
-- OBSTACLES.md - Francis
-- GitHub-USAGE.md - Beni
+- Francis: OBSTACLES.md
+- Beni: GitHub-USAGE.md
