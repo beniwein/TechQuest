@@ -16,4 +16,5 @@ In Prinzip können beispielsweise zwei Beteiligte an einer Aufgabe arbeiten, abe
 Aus diesen Gründen trägt der Git Master eine grosse Verantwortung den Beteiligten und dem Projekt gegenüber. Im Grossen und Ganzen ist eine klare Guideline im Team wichtig & richtig um die Vorteile von GitHub (Remote Work / Share Content) 'sauber' zu gewährleisten.
 
 Optional:
+------------
 Im Profil lässt sich ein Projekt eröffnen & ein Repository miteinbeziehen. Hieraus kann mit Kanban gearbeitet werden. Macht Sinn alle Coding-Aufgaben personenbezogen aufzuführen, nach einem Meilenstein (inkl. Teamsitzung) zu erweiteren und so weiter. Dies als Ergänzung und separat geführte Übersicht gegenüber projektbezogenen Tools, wie Trello (mit Betonung auf ergänzend, nicht ersatzweise).
