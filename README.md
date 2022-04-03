@@ -13,8 +13,12 @@ Ausgangslage: 25 Fragen rund um das Thema Technik / Theme: Terminator
 
 Projektmitglieder: 
 ---------------------
-Francis: Leadcoder in SPA (Single Page Application) & Animation / Beni: Assistant-Coder & 'Code Comprehension' (Beginner-Level) / Ajoub: Support / Saleh: Support
+- Francis: Leadcoder in SPA (Single Page Application) & Animation 
+- Beni: Assistant-Coder & 'Code Comprehension' (Beginner-Level) 
+- Ajoub: Support 
+- Saleh: Support
 
 Verfasser:
+-------------
 - OBSTACLES.md - Francis
 - GitHub-USAGE.md - Beni
