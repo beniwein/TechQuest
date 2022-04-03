@@ -10,3 +10,7 @@
 - Wireframe (Figma): https://www.figma.com/file/8NOvLJdehSNaHGRt9zENSV/TechQuest?node-id=0%3A1
 
 - Projektdokumentation (Trello): https://trello.com/b/yVFplhJd/techquest
+
+Verfasser:
+OBSTACLES.md    Francis
+GitHubUSAGE.md  Beni
