@@ -7,7 +7,7 @@ Zum einen ist es wichtig, die 'Branches unmissverständlich zu benennen, wie bsp
 
 Daraus resultierend arbeitet jeder Beteiligte an seinem eigenen Dokument um 'Überlappungen' im Code zu vermeiden.
 
-Der Git Master ist nebst dem Repository, Pull & Merge vor allem auch für den Review des Main, wie auch 'Code-Blöcke' (Commits) zuständig. Aus diesem Grund erachte ich für diese Position einen erfahrenen Coder als bestens geeignet. Für kleinere übersichtliche Projekte kann man mit klarer Absprache aller Projektbeteiligten eine Ausnahme machen (wie hier).
+Der Git Master ist nebst dem Repository, Pull & Merge vor allem auch für den Review des Main, wie auch 'Code-Blöcke' (Commits) zuständig. Aus diesem Grund erachte ich für diese Position einen erfahrenen Coder als bestens geeignet. Für kleinere übersichtliche Projekte kann man mit klarer Absprache aller Projektbeteiligten eine Ausnahme machen (wie hier der Fall).
 
 Der Git Master kann einen Commit ohne Merge schliessen (aufgrund Konflikt, Entscheidungsänderung etc.). Obendrein vergleicht der Git Master die Commits mit dem jetzt gültigem Main (Thema: Review) - dasselbe in Bezug auf zusammenhängende Commits untereinander. In VSC gibt es eine Art 'Vergleichsfunktion' zum Löschen eines 'überlappenden' Commits, Merge/Close oder gar mergen zweier Commits in ein und dasselbe Dokument (nicht auspropiert). 
 
