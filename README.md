@@ -11,7 +11,9 @@ Ausgangslage: 25 Fragen rund um das Thema Technik / Theme: Terminator
 
 - Projektdokumentation (Trello): https://trello.com/b/yVFplhJd/techquest
 
-Projektmitglieder: Francis: Leadcoder in SPA (Single Page Application) & Animation / Beni: Assistant-Coder & 'Code Comprehension' (Beginner-Level) / Ajoub: Support / Saleh: Support
+Projektmitglieder: 
+---------------------
+Francis: Leadcoder in SPA (Single Page Application) & Animation / Beni: Assistant-Coder & 'Code Comprehension' (Beginner-Level) / Ajoub: Support / Saleh: Support
 
 Verfasser:
 - OBSTACLES.md - Francis
