@@ -15,7 +15,7 @@ Projektmitglieder:
 ---------------------
 - Francis: Leadcoder in SPA (Single Page Application) & Animation 
 - Beni: Assistant-Coder & 'Code Comprehension' (Beginner-Level) 
-- Ajoub: Support 
+- Ajoub: Support & Projectadministration
 - Saleh: Support
 
 Verfasser:
