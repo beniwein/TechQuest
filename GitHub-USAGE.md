@@ -11,7 +11,7 @@ Der Git Master ist nebst dem Repository, Pull & Merge vor allem auch für den Re
 
 Der Git Master kann einen Commit ohne Merge schliessen (aufgrund Konflikt, Entscheidungsänderung etc.). Obendrein vergleicht der Git Master die Commits mit dem jetzt gültigem Main (Thema: Review) - dasselbe in Bezug auf zusammenhängende Commits untereinander. In VSC gibt es eine Art 'Vergleichsfunktion' zum Löschen eines 'überlappenden' Commits, Merge/Close oder gar mergen zweier Commits in ein und dasselbe Dokument (nicht auspropiert). 
 
-In Prinzip können beispielsweise zwei Beteiligte an einer Aufgabe arbeiten, aber nur ein Commit wird ausgelöst, sprich die bessere Lösung wird ausgewählt um ein Szenario Lernerfolg / Lerneffekt zu kreieren.
+In Prinzip können beispielsweise zwei Beteiligte an einer Aufgabe arbeiten, aber nur ein Commit wird ausgelöst, sprich die bessere Lösung wird ausgewählt um ein Szenario 'Lernerfolg / Lerneffekt' zu kreieren.
 
 Aus diesen Gründen trägt der Git Master eine grosse Verantwortung den Beteiligten und dem Projekt gegenüber. Im Grossen und Ganzen ist eine klare Guideline im Team wichtig & richtig um die Vorteile von GitHub (Remote Work / Share Content) 'sauber' zu gewährleisten.
 
